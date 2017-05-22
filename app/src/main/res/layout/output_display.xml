@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="---"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/outputTextDisplayName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/staticTextDisplay1"
+        android:text='said "The' />
+
+    <TextView
+        android:text="---"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/outputTextDisplayAdj" />
+
+    <TextView
+        android:text="---"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/outputTextDisplayNoun" />
+
+    <TextView
+        android:text="---"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/outputTextDisplayVerb" />
+
+    <TextView
+        android:text="all the"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/staticTextDisplay2" />
+
+    <TextView
+        android:text="---"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/outputTextDisplayPlural" />
+
+    <TextView
+        android:text="for"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/staticTextDisplay3" />
+
+    <TextView
+        android:text="---"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/outputTextDisplayCeleb" />
+</LinearLayout>

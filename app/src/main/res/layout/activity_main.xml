@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.guest.madlibs.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Madlibs "
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="13dp"
+        android:textSize="24sp"
+        android:id="@+id/MadlibTitleText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Adjective"
+        android:ems="10"
+        android:layout_marginTop="47dp"
+        android:id="@+id/inputAdjective"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Noun"
+        android:ems="10"
+        android:layout_below="@+id/inputAdjective"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/inputNoun" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Verb"
+        android:ems="10"
+        android:id="@+id/inputVerb"
+        android:layout_below="@+id/inputName"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Plural noun"
+        android:ems="10"
+        android:layout_marginTop="28dp"
+        android:id="@+id/inputPluralNoun"
+        android:layout_below="@+id/inputNoun"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Person's Name"
+        android:ems="10"
+        android:layout_marginTop="33dp"
+        android:id="@+id/inputName"
+        android:layout_below="@+id/inputPluralNoun"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Celebrity"
+        android:ems="10"
+        android:layout_above="@+id/madlibButton"
+        android:layout_alignEnd="@+id/inputVerb"
+        android:id="@+id/inputCelebrity" />
+
+    <Button
+        android:text="Create Madlib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:id="@+id/madlibButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
